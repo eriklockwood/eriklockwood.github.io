@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        
+        <div class="col-md-8">
+            <p>This webpage Provides a dashboard for the Latitude Study which analyzes how weather changes as you get closer to the equator. Data was pulled from the OpenWeathwrMap API and includes over 500 cities.</p>
+        </div>
+        
+        <div class="col-md-4">
+            <a target="_blank" href="/visual1">
+                <img src="assets/images/Fig1.png" alt="Lat v Max temp" height=50 width=70>
+            </a>
+            <br>
+
+            <a target="_blank" href="/visual2">
+                <img src="assets/images/Fig2.png" alt="Lat v Humid" height=50 width=70>
+            </a>
+            <br>
+
+            <a target="_blank" href="/visual3">
+                <img src="assets/images/Fig3.png" alt="Lat v Cloud" height=50 width=70>
+            </a>
+            <br>
+            
+            <a target="_blank" href="/visual4">
+                <img src="/assets/imagesFig4.png" alt="Lat v Wind Speed" height=50 width=70>
+            </a>
+
+        </div>
+      </div>
+    </div>
+</div>
+{% endblock %}
